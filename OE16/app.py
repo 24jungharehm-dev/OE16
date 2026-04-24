@@ -230,7 +230,7 @@ with st.sidebar:
 # ── Main Input ──
 col1, col2 = st.columns([2, 1])
 with col1:
-    product = st.text_input("🏷️ Brand / Product", value="summer sunglasses",
+    product = st.text_input("🏷️ Brand / Product", value="football shoes ",
         placeholder="e.g., organic skincare, fitness app, streetwear brand...")
 with col2:
     platform = st.selectbox("📲 Target Platform",
